@@ -1,0 +1,144 @@
+# de translations for Cheat Manager. IDs are declared in internal/l10n/messages.go.
+
+[button_back]
+other = "Zurück"
+
+[button_cancel]
+other = "Abbrechen"
+
+[button_confirm]
+other = "Bestätigen"
+
+[button_delete]
+other = "Löschen"
+
+[button_edit]
+other = "Bearbeiten"
+
+[button_import]
+other = "Importieren"
+
+[button_language]
+other = "Sprache"
+
+[button_ok]
+other = "OK"
+
+[button_quit]
+other = "Beenden"
+
+[button_save]
+other = "Speichern"
+
+[button_select]
+other = "Auswählen"
+
+[button_toggle]
+other = "AN/AUS"
+
+[field_code]
+other = "Code"
+
+[field_enabled]
+other = "Aktiv"
+
+[field_name]
+other = "Name"
+
+[item_add_cheat]
+other = "+ Cheat hinzufügen"
+
+[item_delete_all]
+other = "- Alle Cheats löschen"
+
+[item_delete_cheat]
+other = "Diesen Cheat löschen"
+
+[item_empty]
+other = "(leer)"
+
+[item_import]
+other = "+ .cht-Datei importieren"
+
+[item_import_file]
+other = "Aus einer lokalen Datei"
+
+[item_import_url]
+other = "Von einer URL"
+
+[item_import_add]
+other = "Zu vorhandenen Cheats hinzufügen"
+
+[item_import_replace]
+other = "Vorhandene Cheats ersetzen"
+
+[item_no_name]
+other = "(ohne Namen)"
+
+[language_prompt]
+other = "Wähle die Sprache der Oberfläche."
+
+[msg_code_empty]
+other = "Der Code ist leer.\n\nMehrere Codes: mit + trennen"
+
+[msg_confirm_delete]
+other = "Den Cheat\n\"{{.Name}}\" löschen?"
+
+[msg_confirm_delete_all]
+other = "ALLE Cheats von\n{{.Game}} löschen?\n\n(eine .bak-Kopie wird behalten)"
+
+[msg_error]
+other = "Fehler:\n{{.Error}}"
+
+[msg_imported]
+one = "{{.Count}} Cheat importiert"
+other = "{{.Count}} Cheats importiert"
+
+[msg_invalid_cht]
+other = "Diese Datei enthält keinen gültigen Cheat."
+
+[msg_download_error]
+other = "Download fehlgeschlagen:\n{{.Error}}"
+
+[msg_name_empty]
+other = "Der Name ist leer."
+
+[msg_no_cht_found]
+other = "Keine .cht-Datei gefunden in\n{{.Path}}\n\nKopiere zuerst welche dorthin (z. B. Cheats/_import/)"
+
+[msg_no_game]
+other = "Kein Spiel in diesem Ordner"
+
+[msg_no_system]
+other = "Kein System gefunden in\n{{.Path}}"
+
+[msg_read_error]
+other = "Datei kann nicht gelesen werden:\n{{.Error}}"
+
+[msg_url_empty]
+other = "Die URL ist leer."
+
+[msg_write_error]
+other = "Schreibfehler:\n{{.Error}}"
+
+[option_no]
+other = "Nein"
+
+[option_yes]
+other = "Ja"
+
+[title_cheat]
+other = "Cheat {{.Number}}"
+
+[title_import_count]
+one = "{{.Count}} Cheat zu importieren"
+other = "{{.Count}} Cheats zu importieren"
+
+[title_import_from]
+other = "Importieren aus..."
+
+[title_language]
+other = "Sprache"
+
+[title_new_cheat]
+other = "Neuer Cheat"

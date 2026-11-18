@@ -1,0 +1,144 @@
+# pt translations for Cheat Manager. IDs are declared in internal/l10n/messages.go.
+
+[button_back]
+other = "Voltar"
+
+[button_cancel]
+other = "Cancelar"
+
+[button_confirm]
+other = "Confirmar"
+
+[button_delete]
+other = "Excluir"
+
+[button_edit]
+other = "Editar"
+
+[button_import]
+other = "Importar"
+
+[button_language]
+other = "Idioma"
+
+[button_ok]
+other = "OK"
+
+[button_quit]
+other = "Sair"
+
+[button_save]
+other = "Salvar"
+
+[button_select]
+other = "Escolher"
+
+[button_toggle]
+other = "ON/OFF"
+
+[field_code]
+other = "Código"
+
+[field_enabled]
+other = "Ativado"
+
+[field_name]
+other = "Nome"
+
+[item_add_cheat]
+other = "+ Adicionar um cheat"
+
+[item_delete_all]
+other = "- Excluir todos os cheats"
+
+[item_delete_cheat]
+other = "Excluir este cheat"
+
+[item_empty]
+other = "(vazio)"
+
+[item_import]
+other = "+ Importar um arquivo .cht"
+
+[item_import_file]
+other = "De um arquivo local"
+
+[item_import_url]
+other = "De uma URL"
+
+[item_import_add]
+other = "Adicionar aos cheats existentes"
+
+[item_import_replace]
+other = "Substituir os cheats existentes"
+
+[item_no_name]
+other = "(sem nome)"
+
+[language_prompt]
+other = "Escolha o idioma da interface."
+
+[msg_code_empty]
+other = "O código está vazio.\n\nVários códigos: separe-os com +"
+
+[msg_confirm_delete]
+other = "Excluir o cheat\n\"{{.Name}}\"?"
+
+[msg_confirm_delete_all]
+other = "Excluir TODOS os cheats de\n{{.Game}}?\n\n(uma cópia .bak é mantida)"
+
+[msg_error]
+other = "Erro:\n{{.Error}}"
+
+[msg_imported]
+one = "{{.Count}} cheat importado"
+other = "{{.Count}} cheats importados"
+
+[msg_invalid_cht]
+other = "Este arquivo não contém nenhum cheat válido."
+
+[msg_download_error]
+other = "Falha no download:\n{{.Error}}"
+
+[msg_name_empty]
+other = "O nome está vazio."
+
+[msg_no_cht_found]
+other = "Nenhum arquivo .cht encontrado em\n{{.Path}}\n\nCopie algum para lá primeiro (ex.: Cheats/_import/)"
+
+[msg_no_game]
+other = "Nenhum jogo nesta pasta"
+
+[msg_no_system]
+other = "Nenhum sistema encontrado em\n{{.Path}}"
+
+[msg_read_error]
+other = "Não foi possível ler o arquivo:\n{{.Error}}"
+
+[msg_url_empty]
+other = "A URL está vazia."
+
+[msg_write_error]
+other = "Erro de gravação:\n{{.Error}}"
+
+[option_no]
+other = "Não"
+
+[option_yes]
+other = "Sim"
+
+[title_cheat]
+other = "Cheat {{.Number}}"
+
+[title_import_count]
+one = "{{.Count}} cheat para importar"
+other = "{{.Count}} cheats para importar"
+
+[title_import_from]
+other = "Importar de..."
+
+[title_language]
+other = "Idioma"
+
+[title_new_cheat]
+other = "Novo cheat"

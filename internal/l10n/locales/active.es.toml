@@ -1,0 +1,144 @@
+# es translations for Cheat Manager. IDs are declared in internal/l10n/messages.go.
+
+[button_back]
+other = "Atrás"
+
+[button_cancel]
+other = "Cancelar"
+
+[button_confirm]
+other = "Confirmar"
+
+[button_delete]
+other = "Eliminar"
+
+[button_edit]
+other = "Editar"
+
+[button_import]
+other = "Importar"
+
+[button_language]
+other = "Idioma"
+
+[button_ok]
+other = "OK"
+
+[button_quit]
+other = "Salir"
+
+[button_save]
+other = "Guardar"
+
+[button_select]
+other = "Elegir"
+
+[button_toggle]
+other = "ON/OFF"
+
+[field_code]
+other = "Código"
+
+[field_enabled]
+other = "Activado"
+
+[field_name]
+other = "Nombre"
+
+[item_add_cheat]
+other = "+ Añadir un truco"
+
+[item_delete_all]
+other = "- Eliminar todos los trucos"
+
+[item_delete_cheat]
+other = "Eliminar este truco"
+
+[item_empty]
+other = "(vacío)"
+
+[item_import]
+other = "+ Importar un archivo .cht"
+
+[item_import_file]
+other = "Desde un archivo local"
+
+[item_import_url]
+other = "Desde una URL"
+
+[item_import_add]
+other = "Añadir a los trucos existentes"
+
+[item_import_replace]
+other = "Reemplazar los trucos existentes"
+
+[item_no_name]
+other = "(sin nombre)"
+
+[language_prompt]
+other = "Elige el idioma de la interfaz."
+
+[msg_code_empty]
+other = "El código está vacío.\n\nVarios códigos: sepáralos con +"
+
+[msg_confirm_delete]
+other = "¿Eliminar el truco\n\"{{.Name}}\"?"
+
+[msg_confirm_delete_all]
+other = "¿Eliminar TODOS los trucos de\n{{.Game}}?\n\n(se conserva una copia .bak)"
+
+[msg_error]
+other = "Error:\n{{.Error}}"
+
+[msg_imported]
+one = "{{.Count}} truco importado"
+other = "{{.Count}} trucos importados"
+
+[msg_invalid_cht]
+other = "Este archivo no contiene ningún truco válido."
+
+[msg_download_error]
+other = "Error de descarga:\n{{.Error}}"
+
+[msg_name_empty]
+other = "El nombre está vacío."
+
+[msg_no_cht_found]
+other = "No se encontró ningún archivo .cht en\n{{.Path}}\n\nCopia alguno allí primero (p. ej. Cheats/_import/)"
+
+[msg_no_game]
+other = "No hay juegos en esta carpeta"
+
+[msg_no_system]
+other = "No se encontró ningún sistema en\n{{.Path}}"
+
+[msg_read_error]
+other = "No se puede leer el archivo:\n{{.Error}}"
+
+[msg_url_empty]
+other = "La URL está vacía."
+
+[msg_write_error]
+other = "Error de escritura:\n{{.Error}}"
+
+[option_no]
+other = "No"
+
+[option_yes]
+other = "Sí"
+
+[title_cheat]
+other = "Truco {{.Number}}"
+
+[title_import_count]
+one = "{{.Count}} truco para importar"
+other = "{{.Count}} trucos para importar"
+
+[title_import_from]
+other = "Importar desde..."
+
+[title_language]
+other = "Idioma"
+
+[title_new_cheat]
+other = "Nuevo truco"

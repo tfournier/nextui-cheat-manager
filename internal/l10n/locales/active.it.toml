@@ -1,0 +1,144 @@
+# it translations for Cheat Manager. IDs are declared in internal/l10n/messages.go.
+
+[button_back]
+other = "Indietro"
+
+[button_cancel]
+other = "Annulla"
+
+[button_confirm]
+other = "Conferma"
+
+[button_delete]
+other = "Elimina"
+
+[button_edit]
+other = "Modifica"
+
+[button_import]
+other = "Importa"
+
+[button_language]
+other = "Lingua"
+
+[button_ok]
+other = "OK"
+
+[button_quit]
+other = "Esci"
+
+[button_save]
+other = "Salva"
+
+[button_select]
+other = "Scegli"
+
+[button_toggle]
+other = "ON/OFF"
+
+[field_code]
+other = "Codice"
+
+[field_enabled]
+other = "Attivo"
+
+[field_name]
+other = "Nome"
+
+[item_add_cheat]
+other = "+ Aggiungi un trucco"
+
+[item_delete_all]
+other = "- Elimina tutti i trucchi"
+
+[item_delete_cheat]
+other = "Elimina questo trucco"
+
+[item_empty]
+other = "(vuoto)"
+
+[item_import]
+other = "+ Importa un file .cht"
+
+[item_import_file]
+other = "Da un file locale"
+
+[item_import_url]
+other = "Da un URL"
+
+[item_import_add]
+other = "Aggiungi ai trucchi esistenti"
+
+[item_import_replace]
+other = "Sostituisci i trucchi esistenti"
+
+[item_no_name]
+other = "(senza nome)"
+
+[language_prompt]
+other = "Scegli la lingua dell'interfaccia."
+
+[msg_code_empty]
+other = "Il codice è vuoto.\n\nPiù codici: separali con +"
+
+[msg_confirm_delete]
+other = "Eliminare il trucco\n\"{{.Name}}\"?"
+
+[msg_confirm_delete_all]
+other = "Eliminare TUTTI i trucchi di\n{{.Game}}?\n\n(viene conservata una copia .bak)"
+
+[msg_error]
+other = "Errore:\n{{.Error}}"
+
+[msg_imported]
+one = "{{.Count}} trucco importato"
+other = "{{.Count}} trucchi importati"
+
+[msg_invalid_cht]
+other = "Questo file non contiene trucchi validi."
+
+[msg_download_error]
+other = "Download fallito:\n{{.Error}}"
+
+[msg_name_empty]
+other = "Il nome è vuoto."
+
+[msg_no_cht_found]
+other = "Nessun file .cht trovato in\n{{.Path}}\n\nCopiane prima qualcuno lì (es. Cheats/_import/)"
+
+[msg_no_game]
+other = "Nessun gioco in questa cartella"
+
+[msg_no_system]
+other = "Nessun sistema trovato in\n{{.Path}}"
+
+[msg_read_error]
+other = "Impossibile leggere il file:\n{{.Error}}"
+
+[msg_url_empty]
+other = "L'URL è vuoto."
+
+[msg_write_error]
+other = "Errore di scrittura:\n{{.Error}}"
+
+[option_no]
+other = "No"
+
+[option_yes]
+other = "Sì"
+
+[title_cheat]
+other = "Trucco {{.Number}}"
+
+[title_import_count]
+one = "{{.Count}} trucco da importare"
+other = "{{.Count}} trucchi da importare"
+
+[title_import_from]
+other = "Importa da..."
+
+[title_language]
+other = "Lingua"
+
+[title_new_cheat]
+other = "Nuovo trucco"

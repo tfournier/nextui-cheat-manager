@@ -1,0 +1,144 @@
+# en translations for Cheat Manager. IDs are declared in internal/l10n/messages.go.
+
+[button_back]
+other = "Back"
+
+[button_cancel]
+other = "Cancel"
+
+[button_confirm]
+other = "Confirm"
+
+[button_delete]
+other = "Delete"
+
+[button_edit]
+other = "Edit"
+
+[button_import]
+other = "Import"
+
+[button_language]
+other = "Language"
+
+[button_ok]
+other = "OK"
+
+[button_quit]
+other = "Quit"
+
+[button_save]
+other = "Save"
+
+[button_select]
+other = "Select"
+
+[button_toggle]
+other = "ON/OFF"
+
+[field_code]
+other = "Code"
+
+[field_enabled]
+other = "Enabled"
+
+[field_name]
+other = "Name"
+
+[item_add_cheat]
+other = "+ Add a cheat"
+
+[item_delete_all]
+other = "- Delete all cheats"
+
+[item_delete_cheat]
+other = "Delete this cheat"
+
+[item_empty]
+other = "(empty)"
+
+[item_import]
+other = "+ Import a .cht file"
+
+[item_import_file]
+other = "From a local file"
+
+[item_import_url]
+other = "From a URL"
+
+[item_import_add]
+other = "Add to existing cheats"
+
+[item_import_replace]
+other = "Replace existing cheats"
+
+[item_no_name]
+other = "(no name)"
+
+[language_prompt]
+other = "Choose the interface language."
+
+[msg_code_empty]
+other = "The code is empty.\n\nMultiple codes: separate them with +"
+
+[msg_confirm_delete]
+other = "Delete the cheat\n\"{{.Name}}\"?"
+
+[msg_confirm_delete_all]
+other = "Delete ALL cheats of\n{{.Game}}?\n\n(a .bak copy is kept)"
+
+[msg_error]
+other = "Error:\n{{.Error}}"
+
+[msg_imported]
+one = "{{.Count}} cheat imported"
+other = "{{.Count}} cheats imported"
+
+[msg_invalid_cht]
+other = "This file contains no valid cheat."
+
+[msg_download_error]
+other = "Download failed:\n{{.Error}}"
+
+[msg_name_empty]
+other = "The name is empty."
+
+[msg_no_cht_found]
+other = "No .cht file found in\n{{.Path}}\n\nCopy some there first (e.g. Cheats/_import/)"
+
+[msg_no_game]
+other = "No game in this folder"
+
+[msg_no_system]
+other = "No system found in\n{{.Path}}"
+
+[msg_read_error]
+other = "Cannot read file:\n{{.Error}}"
+
+[msg_url_empty]
+other = "The URL is empty."
+
+[msg_write_error]
+other = "Write error:\n{{.Error}}"
+
+[option_no]
+other = "No"
+
+[option_yes]
+other = "Yes"
+
+[title_cheat]
+other = "Cheat {{.Number}}"
+
+[title_import_count]
+one = "{{.Count}} cheat to import"
+other = "{{.Count}} cheats to import"
+
+[title_import_from]
+other = "Import from..."
+
+[title_language]
+other = "Language"
+
+[title_new_cheat]
+other = "New cheat"

@@ -1,0 +1,22 @@
+{
+  "name": "Cheat Manager",
+  "version": "v1.0.0",
+  "type": "TOOL",
+  "description": "Add, edit, toggle, delete and import RetroArch cheats (.cht) for your games, right on your device.",
+  "author": "Thomas Fournier",
+  "repo_url": "https://github.com/tfournier/nextui-cheat-manager",
+  "release_filename": "Cheat.Manager.pak.zip",
+  "platforms": [
+    "tg5040"
+  ],
+  "screenshots": [
+    "docs/screenshots/cheats.png",
+    "docs/screenshots/edit.png",
+    "docs/screenshots/games.png",
+    "docs/screenshots/systems.png",
+    "docs/screenshots/language.png"
+  ],
+  "changelog": {
+    "v1.0.1": "First release:\n- Add, edit, enable/disable and delete the cheats of a game, right on the device.\n- Import cheats from local .cht files or from a URL.\n- Interface in English, German, Spanish, French, Italian, Portuguese and Japanese, chosen on first launch."
+  }
+}

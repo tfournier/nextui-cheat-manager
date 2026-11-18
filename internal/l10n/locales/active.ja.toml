@@ -1,0 +1,142 @@
+# ja translations for Cheat Manager. IDs are declared in internal/l10n/messages.go.
+
+[button_back]
+other = "戻る"
+
+[button_cancel]
+other = "キャンセル"
+
+[button_confirm]
+other = "決定"
+
+[button_delete]
+other = "削除"
+
+[button_edit]
+other = "編集"
+
+[button_import]
+other = "インポート"
+
+[button_language]
+other = "言語"
+
+[button_ok]
+other = "OK"
+
+[button_quit]
+other = "終了"
+
+[button_save]
+other = "保存"
+
+[button_select]
+other = "選択"
+
+[button_toggle]
+other = "ON/OFF"
+
+[field_code]
+other = "コード"
+
+[field_enabled]
+other = "有効"
+
+[field_name]
+other = "名前"
+
+[item_add_cheat]
+other = "+ チートを追加"
+
+[item_delete_all]
+other = "- すべてのチートを削除"
+
+[item_delete_cheat]
+other = "このチートを削除"
+
+[item_empty]
+other = "(未入力)"
+
+[item_import]
+other = "+ .chtファイルをインポート"
+
+[item_import_file]
+other = "ローカルファイルから"
+
+[item_import_url]
+other = "URLから"
+
+[item_import_add]
+other = "既存のチートに追加"
+
+[item_import_replace]
+other = "既存のチートを置き換え"
+
+[item_no_name]
+other = "(名前なし)"
+
+[language_prompt]
+other = "表示言語を選んでください。"
+
+[msg_code_empty]
+other = "コードが入力されていません。\n\n複数のコードは + で区切ってください"
+
+[msg_confirm_delete]
+other = "チート「{{.Name}}」を\n削除しますか？"
+
+[msg_confirm_delete_all]
+other = "{{.Game}} の\nすべてのチートを削除しますか？\n\n(.bakファイルにコピーが残ります)"
+
+[msg_error]
+other = "エラー:\n{{.Error}}"
+
+[msg_imported]
+other = "{{.Count}}件のチートをインポートしました"
+
+[msg_invalid_cht]
+other = "このファイルには有効なチートがありません。"
+
+[msg_download_error]
+other = "ダウンロードに失敗しました:\n{{.Error}}"
+
+[msg_name_empty]
+other = "名前が入力されていません。"
+
+[msg_no_cht_found]
+other = ".chtファイルが見つかりません:\n{{.Path}}\n\n先にファイルをコピーしてください (例: Cheats/_import/)"
+
+[msg_no_game]
+other = "このフォルダにゲームはありません"
+
+[msg_no_system]
+other = "システムが見つかりません:\n{{.Path}}"
+
+[msg_read_error]
+other = "ファイルを読み込めません:\n{{.Error}}"
+
+[msg_url_empty]
+other = "URLが入力されていません。"
+
+[msg_write_error]
+other = "書き込みエラー:\n{{.Error}}"
+
+[option_no]
+other = "いいえ"
+
+[option_yes]
+other = "はい"
+
+[title_cheat]
+other = "チート {{.Number}}"
+
+[title_import_count]
+other = "インポートするチート: {{.Count}}件"
+
+[title_import_from]
+other = "インポート元..."
+
+[title_language]
+other = "言語"
+
+[title_new_cheat]
+other = "新しいチート"
