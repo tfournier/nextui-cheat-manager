@@ -7,7 +7,10 @@
   "repo_url": "https://github.com/tfournier/nextui-cheat-manager",
   "release_filename": "Cheat.Manager.pak.zip",
   "platforms": [
-    "tg5040"
+    "tg5040",
+    "tg5050",
+    "h700",
+    "my355"
   ],
   "screenshots": [
     "docs/screenshots/cheats.png",
@@ -17,6 +20,7 @@
     "docs/screenshots/language.png"
   ],
   "changelog": {
+    "Unreleased": "Add support for tg5050 (TrimUI Smart Pro), h700 (Anbernic) and my355 (Miyoo Flip) platforms.",
     "v1.0.1": "First release:\n- Add, edit, enable/disable and delete the cheats of a game, right on the device.\n- Import cheats from local .cht files or from a URL.\n- Interface in English, German, Spanish, French, Italian, Portuguese and Japanese, chosen on first launch."
   }
 }
