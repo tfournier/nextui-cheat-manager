@@ -1,6 +1,6 @@
 {
   "name": "Cheat Manager",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "type": "TOOL",
   "description": "Add, edit, toggle, delete and import RetroArch cheats (.cht) for your games, right on your device.",
   "author": "Thomas Fournier",
