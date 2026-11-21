@@ -1,6 +1,6 @@
 {
   "name": "Cheat Manager",
-  "version": "v1.0.1",
+  "version": "v1.1.0",
   "type": "TOOL",
   "description": "Add, edit, toggle, delete and import RetroArch cheats (.cht) for your games, right on your device.",
   "author": "Thomas Fournier",
@@ -20,7 +20,7 @@
     "docs/screenshots/language.png"
   ],
   "changelog": {
-    "Unreleased": "Installing from the Pak Store works: the release zip now holds the pak at its root (it was nested one folder too deep and the pak did not start). Installing by hand: unzip, name the folder Cheat Manager.pak and copy it into Tools/tg5040.\nAdd support for tg5050 (TrimUI Smart Pro), h700 (Anbernic) and my355 (Miyoo Flip) platforms.",
+    "v1.1.0": "Installing from the Pak Store works: the release zip now holds the pak at its root (it was nested one folder too deep and the pak did not start). Installing by hand: unzip, name the folder Cheat Manager.pak and copy it into Tools/tg5040.\nAdd support for tg5050 (TrimUI Smart Pro), h700 (Anbernic) and my355 (Miyoo Flip) platforms.",
     "v1.0.1": "First release:\n- Add, edit, enable/disable and delete the cheats of a game, right on the device.\n- Import cheats from local .cht files or from a URL.\n- Interface in English, German, Spanish, French, Italian, Portuguese and Japanese, chosen on first launch."
   }
 }
