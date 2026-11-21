@@ -73,8 +73,11 @@ pak: build ## Assemble the pak folder in build/pak
 release: check-version pak ## Build the release zip (Pak Store format) in dist/
 	rm -rf $(DIST_DIR)
 	mkdir -p $(DIST_DIR)
-	# The zip contains a "Cheat Manager.pak/" folder so it extracts with the correct name
-	cd $(BUILD_DIR) && mv pak "$(PAK_NAME).pak" && zip -qr "$(CURDIR)/$(RELEASE_ZIP)" "$(PAK_NAME).pak"
+	# The pak's contents sit at the root of the zip: the Pak Store creates
+	# Tools/<PLATFORM>/Cheat Manager.pak/ itself and extracts the zip into it
+	# (a top "Cheat Manager.pak/" folder would nest it and the pak would not start).
+	cd $(PAK_DIR) && zip -qr "$(CURDIR)/$(RELEASE_ZIP)" .
+	@zip -sf "$(RELEASE_ZIP)" | grep -qx '  launch.sh' || { echo "launch.sh is not at the root of $(RELEASE_ZIP)"; exit 1; }
 	@ls -l $(DIST_DIR)
 
 check-version: ## Check that TAG (when set, e.g. by the CI) matches pak.json and has a changelog entry

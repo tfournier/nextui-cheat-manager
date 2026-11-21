@@ -28,7 +28,7 @@ Open **Pak Store** on your device and install **Cheat Manager**.
 ### Manually
 
 1. Download `Cheat.Manager.pak.zip` from the [latest release](https://github.com/tfournier/nextui-cheat-manager/releases/latest).
-2. Unzip the archive into `/Tools/tg5040/` on your SD card. You should get `/Tools/tg5040/Cheat Manager.pak/launch.sh`.
+2. Unzip it on your computer: Finder or Windows creates a `Cheat.Manager.pak` folder (if your tool extracts the files loose, create a folder and put them in it). Name that folder `Cheat Manager.pak` (with a space) and copy it into `/Tools/tg5040/` on your SD card. You should get `/Tools/tg5040/Cheat Manager.pak/launch.sh`.
 3. Open **Tools > Cheat Manager** on your device.
 
 ## Usage
