@@ -32,6 +32,11 @@ RELEASE_ZIP  := $(DIST_DIR)/$(RELEASE_FILE)
 CROSS_ENV    := CGO_ENABLED=1 GOOS=linux GOARCH=arm64 CC=aarch64-linux-gnu-gcc \
                 PKG_CONFIG_PATH=/usr/lib/aarch64-linux-gnu/pkgconfig
 SDL_GFX_LIB  := /usr/lib/aarch64-linux-gnu/libSDL2_gfx-1.0.so.0
+# Bundled for h700 only, as the Pak Store does (pak/launch.sh).
+SDL_TTF_LIB  := /usr/lib/aarch64-linux-gnu/libSDL2_ttf-2.0.so.0
+# Bundled for my355 only: SDL2_gfx built by Debian 10 (glibc 2.17), see
+# scripts/setup-toolchain.sh.
+SDL_GFX_OLD_LIB := /usr/lib/aarch64-linux-gnu/glibc-2.28/libSDL2_gfx-1.0.so.0
 GO_TAGS      := nodefaultfont
 LDFLAGS      := -s -w -X main.version=$(VERSION)
 
@@ -68,6 +73,9 @@ pak: build ## Assemble the pak folder in build/pak
 	cp pak/launch.sh $(BIN) pak.json README.md LICENSE $(PAK_DIR)/
 	cp pak/THIRD_PARTY.md $(PAK_DIR)/resources/
 	cp -L $(SDL_GFX_LIB) $(PAK_DIR)/resources/lib/
+	mkdir -p $(PAK_DIR)/resources/lib/h700 $(PAK_DIR)/resources/lib/my355
+	cp -L $(SDL_TTF_LIB) $(PAK_DIR)/resources/lib/h700/
+	cp -L $(SDL_GFX_OLD_LIB) $(PAK_DIR)/resources/lib/my355/
 	chmod +x $(PAK_DIR)/launch.sh $(PAK_DIR)/$(APP)
 
 release: check-version pak ## Build the release zip (Pak Store format) in dist/

@@ -1,6 +1,6 @@
 # Cheat Manager for NextUI
 
-Cheat Manager is a [NextUI](https://github.com/LoveRetro/NextUI) tool for managing RetroArch cheats (`.cht` files) directly on your TrimUI Brick or TrimUI Smart Pro. No computer is needed.
+Cheat Manager is a [NextUI](https://github.com/LoveRetro/NextUI) tool for managing RetroArch cheats (`.cht` files) directly on your handheld. No computer is needed.
 
 ![Cheat list](docs/screenshots/cheats.png)
 
@@ -19,6 +19,17 @@ Cheat Manager is a [NextUI](https://github.com/LoveRetro/NextUI) tool for managi
 |---|---|---|
 | ![Games](docs/screenshots/games.png) | ![Edit](docs/screenshots/edit.png) | ![Language](docs/screenshots/language.png) |
 
+## Supported platforms
+
+One zip serves every platform: the binary is the same, and `launch.sh` loads the libraries a platform needs.
+
+| Platform | Devices | Install folder | Status |
+|---|---|---|---|
+| `tg5040` | TrimUI Brick, TrimUI Smart Pro | `/Tools/tg5040/` | Tested |
+| `tg5050` | TrimUI Smart Pro S | `/Tools/tg5050/` | Experimental (not tested on hardware) |
+| `h700` | Anbernic handhelds | `/Tools/h700/` | Experimental (not tested on hardware) |
+| `my355` | Miyoo Flip | `/Tools/my355/` | Experimental (not tested on hardware) |
+
 ## Installation
 
 ### From the Pak Store
@@ -28,7 +39,7 @@ Open **Pak Store** on your device and install **Cheat Manager**.
 ### Manually
 
 1. Download `Cheat.Manager.pak.zip` from the [latest release](https://github.com/tfournier/nextui-cheat-manager/releases/latest).
-2. Unzip it on your computer: Finder or Windows creates a `Cheat.Manager.pak` folder (if your tool extracts the files loose, create a folder and put them in it). Name that folder `Cheat Manager.pak` (with a space) and copy it into `/Tools/tg5040/` on your SD card. You should get `/Tools/tg5040/Cheat Manager.pak/launch.sh`.
+2. Unzip it on your computer: Finder or Windows creates a `Cheat.Manager.pak` folder (if your tool extracts the files loose, create a folder and put them in it). Name that folder `Cheat Manager.pak` (with a space) and copy it into the folder of your platform on your SD card, `/Tools/<platform>/` (see [Supported platforms](#supported-platforms)). On a TrimUI Brick, you should get `/Tools/tg5040/Cheat Manager.pak/launch.sh`.
 3. Open **Tools > Cheat Manager** on your device.
 
 ## Usage
@@ -51,8 +62,8 @@ Cheat Manager follows the NextUI convention: the cheat file of a ROM is named af
 
 | File | Location |
 |---|---|
-| Settings (language) | `/.userdata/tg5040/Cheat Manager/settings.json` |
-| Logs | `/.userdata/tg5040/logs/Cheat Manager.txt` and `Cheat Manager.stderr.txt` |
+| Settings (language) | `/.userdata/<platform>/Cheat Manager/settings.json` |
+| Logs | `/.userdata/<platform>/logs/Cheat Manager.txt` and `Cheat Manager.stderr.txt` |
 
 ## Development
 
@@ -71,7 +82,7 @@ The UI uses [gabagool](https://github.com/BrandonKowalski/gabagool), the Go UI l
 
 ### Build
 
-The binary is cross-compiled for ARM64 against Debian 11 (bullseye) libraries, which is old enough for the TrimUI firmware. The easiest way to build is with Docker:
+The binary is cross-compiled for ARM64 against Debian 11 (bullseye) libraries, which is old enough for the TrimUI firmware: the binary needs glibc 2.17 only. Two platforms need extra libraries, bundled in `resources/lib/<platform>/` and loaded by `launch.sh` on that platform only: `libSDL2_ttf` for h700 (as the Pak Store does), and a Debian 10 build of `libSDL2_gfx` for my355, whose NextUI firmware has glibc 2.28 (the Debian 11 build needs 2.29). The easiest way to build is with Docker:
 
 ```sh
 make docker-release      # builds dist/Cheat.Manager.pak.zip
